@@ -11,3 +11,4 @@ app.use(cors());
 app.get('/test', (req, res) => res.status(200).send("Success!"))
 
 app.listen(port, () => console.log(`Listening on port ${port}!`))
+
